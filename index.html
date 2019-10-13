@@ -125,19 +125,20 @@ background-color: #06c;
   }
 
 
-  .container4 .content {
-  position: absolute; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0,0,0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-  width: 30%; /* Full width */
-  left:65%;
-  padding: 20px; /* Some padding */
-  height:90%;
-  border-radius:10px;
-  bottom:2%;
+  .container5 .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0,0,0, 0.5);
+    color: #f1f1f1;
+    width: 25%;
+    left: 74%;
+    padding: 13px;
+    height: 60%;
+    border-radius: 10px;
+    bottom: 35%;
 }
+  
     </style>
     <script>
       window.onscroll = function() {scrollFunction()};
@@ -185,26 +186,27 @@ background-color: #06c;
       </div>
     </nav>
     <div id="adjust" style="height:40px;"></div>
-    <div class="courosel">
+    <div class="couroselabc">
        
-        <div class="carousel">
-          <div class="carousel container4">
-            <img class="firstImage" src="https://www.brigadecornerstoneutopia.in/images/demo/slider/slider3.jpg" class="d-block w-100" alt="..." style="height:500px">
+        <div class="carousel container5">
+          <div class="carousel ">
+            <img class="firstImage" src="https://www.brigadecornerstoneutopia.in/images/demo/slider/slider3.jpg" class="d-block w-100" alt="..." style="height:500px; width:100%">
             <div class="row">
               <div class="col-md-4"></div>
               <div class="col-md-4"></div>
 
               <div class="col-md-8 content" id="firscontent"> 
-                <h2 style="color:white">Contact US</h2>
+                <h2 style="color:white; font-size: 14px;">Contact US</h2>
                 <hr style="border-top: 1px solid white; padding-bottom:3px !important">
-            <form class="form-box" name="form1" id="contactUsForm" validation="" >
-              <label for="name" style="">Name</label><br>
-              <input type="text" name="client_name" id="aaa" class="form-control" placeholder="Enter Your Name" required=""><br>
-              <label for="email">Email ID</label><br>
-              <input type="email" name="client_mail_id" id="bbb" class="form-control" placeholder="Enter Your Email" required=""><br>
-              <label for="phone">Phone</label><br>
-              <input type="tel" name="client_phone_number" minlength="10" maxlength="13" id="ccc" class="form-control" placeholder="Enter Your Phone" required=""><br>
-              <button type="button" class="btn btn-primary btn-sm">Submit</button>
+            <form class="form-box" name="form1" id="contactUsForm" validation="" style="line-height: 10px;" >
+              <label for="name" style="font-size: 12px;">Name</label><br>
+              <input type="text" name="client_name" id="aaa" class="form-control" placeholder="Enter Your Name" required="" style="font-size: 12px;"><br>
+              <label for="email" style="font-size: 12px;">Email ID</label><br>
+              <input type="email" name="client_mail_id" id="bbb" class="form-control" placeholder="Enter Your Email" required="" style="font-size: 12px;"><br>
+              <label for="phone" style="font-size: 12px;">Phone</label><br>
+              <input type="tel" name="client_phone_number" minlength="10" maxlength="13" id="ccc" class="form-control" placeholder="Enter Your Phone" required="" style="font-size: 12px;"><br>
+              <br>
+              <button type="button" class="btn btn-primary btn-sm" style="font-size: 12px;">Submit Details</button>
           </form>
               </div>
             </div>
@@ -349,21 +351,21 @@ background-color: #06c;
 
     <div style="height:40px;" id="tarcosting"></div>
 
-    <h2 style="text-align:center">Ethoupia <span style="color:#ED2A28;">costing</span></h2>
+    
     <div class="container">
       
 
-      <div class="card" style="padding:15px;">
-       
+      <div class="card" style="padding:15px; box-shadow:1px 2px 3px;">
+        <h2 style="text-align:center; text-decoration: underline;">Utoupia <span style="color:#ED2A28; text-decoration: underline;">costing</span></h2>
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">HALCYON</a>
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><button class="btn btn-primary">HALCYON</button></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Eden</a>
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><button class="btn btn-secondary">Eden</button></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Serene</a>
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><button class="btn btn-success">Serene</button></a>
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">

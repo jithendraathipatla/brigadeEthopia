@@ -189,3 +189,7 @@ background-color: red;
     .wrapper:hover .text {
     visibility:visible;
     }
+
+  .img.firstImage{
+    width: 100%;
+  }
