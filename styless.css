@@ -2,6 +2,12 @@
   .row.proper {
     margin-left: 26px !important;
 }
+#firscontent{
+  display: none;
+}
+img.firstImage{
+  height:350px;
+}
 img.adjusting_image{
   height:475px !important;
 }
