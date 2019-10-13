@@ -46,3 +46,140 @@ img.nav_image{
   color: black;
 }
 }
+
+.modal-content{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding:6px;
+}
+
+
+img.hoverjj:hover{
+  cursor: pointer;
+  opacity:0.5
+}
+
+
+.popup{
+  left: 0;
+  position: fixed;
+  top: 25%;
+  transition: left .5s ease;
+  z-index:1000;
+}
+.popupps{
+  left: 0;
+  position: fixed;
+  top: 65%;
+  transition: left .5s ease;
+  z-index:1000;
+}
+.popup-content{
+    background-color:#1b5e20;
+    box-sizing: border-box;    
+    color: white;
+    float: left;
+    height: 182px;
+    padding: 10px;
+    width: 275px;
+    font-size: 12px;; 
+}
+
+.closepopup{
+  left: -275px;
+  
+}
+.button{
+    background-color: red;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 114px;
+    padding-top: 1.1em;
+    width: 51px;
+    font-weight: 700;
+    color: white !important;
+    font-size: 15px;
+}
+.button::after{
+   
+    color: white !important;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 5px;
+  }
+.button-closed::after{
+    
+    color: white !important;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+.buttonps{
+background-color: red;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 108px;
+    padding-top: 1em;
+    width: 51px;
+    font-weight: 700;
+    color: white !important;
+    font-size: 15px;
+    
+}
+.btn-group button{width: 200px !important;
+    color: #fff !important;
+    padding: 5px !important;
+  background-color:#ff0000 !important}
+  
+  input{
+    width:100%;
+  }
+
+
+  .phonelink{
+    position: fixed; /* Lock location always on the scree */
+    bottom: 0; /* Set to the bottom */
+    right: 0; /* Set to the right */
+    margin: 22px; /* Add space around background */
+  }
+  .phoneicon{
+    width: 49px; /* Set width of icon */
+    height: 49px; /* Set height of icon */
+  }
+  @media screen and (max-width: 480px){
+    .lgscreenphone{
+        display: none;  /* On small screens make phone icon disappear */
+    }
+    .mbscreenphone{
+        display: block; /* On small screens make phone icon appear */
+    }
+  }
+  @media screen and (min-width: 481px){
+    .mbscreenphone{
+        display: none; /* On large screens make phone icon disappear */
+    }
+    .lgscreenphone{
+        display: block; /* On large screens make phone icon appear */
+    }
+   
+    
+  }
+
+  .wrapper .text {
+    position:relative;
+    bottom:120px;
+    left:15%;
+    visibility:hidden;
+    font-weight:800px;
+    font-size: 22px;
+    margin-bottom:-30px;
+    color:red;
+    }
+    
+    .wrapper:hover .text {
+    visibility:visible;
+    }
