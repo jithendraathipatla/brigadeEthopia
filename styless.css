@@ -492,13 +492,23 @@ img.hover-shadow {
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(206, 149, 149, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 img.gallery-maintain{
   width:100%;
   height:75vh;
   top:-20px;
+}
+
+.herocomponent{
+  background-size: contain;
+  background-image: linear-gradient(to bottom, #76d56fe8,#28b48538), url(https://www.brigadecornerstoneutopia.in/images/demo/slider/slider2.jpg);
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 110% 80vh, 0 100%);
+  position: relative;
+  height: 80vh;
+  margin-top: 5%;
 }
 
 @media only screen and (max-width: 600px){
@@ -510,4 +520,5 @@ img.gallery-maintain {
   height: 72vh !important;
   top: -20px;
 }
+
 }
