@@ -6,6 +6,7 @@ function openModal() {
 // Close the Modal
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
+  document.getElementById("fixingthenav").style.display = "block";
 }
 
 
