@@ -530,6 +530,16 @@ a#nav{
 .container2 {
     display: inherit !important;
 }
+
+#contactUsForm{
+
+  background: white;
+    padding: 22px 10px !important;
+    border-radius: 12px;
+    width: 87% !important;
+    margin-left: 29px !important;
+
+}
 #hii {
   margin-left: 22px;
 }
@@ -655,3 +665,5 @@ rounded-circle:hover{
   transform: translateY(-1px);
   box-shadow: 0px 1px 5px rgb(0, 0, 0, 0.5);
 }
+
+
