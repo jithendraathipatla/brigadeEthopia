@@ -503,7 +503,7 @@ img.gallery-maintain{
 
 .herocomponent{
   background-size: contain;
-  background-image: linear-gradient(to bottom, #76d56fe8,#28b48538), url(https://www.brigadecornerstoneutopia.in/images/demo/slider/slider2.jpg);
+  background-image:  url(https://www.brigadecornerstoneutopia.in/images/demo/slider/slider2.jpg);
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 110% 80vh, 0 100%);
   position: relative;
@@ -523,4 +523,66 @@ img.gallery-maintain {
 #lkj{
   display: none;
 }
+}
+
+
+.btn-primary {
+  color: #fff;
+  /* background-color: #007bff; */
+  border-color: #007bff;
+  background-color: #158140;
+  border-color: #158140;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-sizing: 0px 20px 30px rgba(0,0,0,0.5);
+  background: black;
+  border-color:black;
+}
+
+.btn:active {
+  border-color: #007bff;
+  transform: translateY(-1px);
+  background: #007bff;
+}
+
+
+.abcd{
+  margin-top: 5px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    text-align: center;
+    list-style: none;
+    background: thistle;
+    grid-gap:10px;
+}
+
+.abcde{
+  border: dotted 0.5px rgb(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius:5px;
+  width: 89%;
+  margin-top:5px;
+  margin-bottom: 5px;
+  
+}
+
+.abcd span{
+  display: block;
+}
+
+.abcde:nth-last-child(odd){
+  background: royalblue;
+  color:white;
+}
+.abcde:nth-last-child(even){
+  background: rebeccapurple;
+  color:white;
+}
+
+
+.abcde:hover{
+  transform: translateY(-1px);
+  box-shadow: 0px 1px 20px rgb(0, 0, 0, 0.5);
 }

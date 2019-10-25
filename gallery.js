@@ -6,7 +6,15 @@ function openModal() {
 // Close the Modal
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
-  document.getElementById("fixingthenav").style.display = "block";
+}
+
+function openModal1() {
+  document.getElementById("myModal1").style.display = "block";
+ 
+}
+
+function closeModal1() {
+  document.getElementById("myModal1").style.display = "none";
 }
 
 
