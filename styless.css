@@ -503,7 +503,7 @@ img.gallery-maintain{
 
 .herocomponent{
   background-size: contain;
-  background-image:  url(https://www.brigadecornerstoneutopia.in/images/demo/slider/slider2.jpg);
+  background-image:  url("https://www.brigadecornerstoneutopia.in/images/demo/slider/slider2.jpg");
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 110% 80vh, 0 100%);
   position: relative;
@@ -511,10 +511,44 @@ img.gallery-maintain{
   margin-top: 5%;
 }
 
+a#nav{
+  margin-top:20px;
+}
+
+
+@media (min-width: 768px){
+.navbar-expand-md .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    margin-left: 123px !important;
+}
+}
+
 @media only screen and (max-width: 600px){
 .container2 {
     display: inherit !important;
 }
+#hii {
+  margin-left: 22px;
+}
+.fixed-top {
+  padding: 0px;
+  padding-bottom: 16px !important;
+}
+.abcd {
+  margin-top: 5px;
+  display: block !important;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  text-align: center;
+  list-style: none;
+  grid-gap: 2px;
+  color: black;
+  margin-left: 17px;
+  padding-top: 10px;
+}
+
 img.gallery-maintain {
   width: 100%;
   height: 72vh !important;
@@ -551,38 +585,73 @@ img.gallery-maintain {
 .abcd{
   margin-top: 5px;
     display: grid;
-    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
     text-align: center;
     list-style: none;
-    background: thistle;
-    grid-gap:10px;
+    grid-gap:2px;
+    color:black;
+    margin-left: 17px;
+    padding-top:10px;
 }
+
+
 
 .abcde{
-  border: dotted 0.5px rgb(0, 0, 0, 0.5);
+  /* border: dotted 0.5px rgb(0, 0, 0, 0.5); */
   padding: 5px;
-  border-radius:5px;
-  width: 89%;
-  margin-top:5px;
+  border-radius: 5px;
+  font-weight: 400;
+  width: 79%;
+  margin-top: 16px;
+  height: 60px;
   margin-bottom: 5px;
-  
 }
 
+
+.rounded-circle {
+  border-radius: 50%!important;
+  height: 51px;
+  float: left;
+  border: 1px solid black;
+}
+
+img .rounded-circle:hover{
+  transform: translateY(-10px);
+}
+rounded-circle:hover{
+  height:100px;
+}
 .abcd span{
   display: block;
+  font-size:16px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #76d56fe8;
+  /* background-color: #76d56fe8; */
+  background-clip: padding-box;
+  border: 1px solid #76d56f;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .abcde:nth-last-child(odd){
-  background: royalblue;
-  color:white;
+  color:black;
 }
+
 .abcde:nth-last-child(even){
-  background: rebeccapurple;
-  color:white;
+  color:black;
 }
 
 
 .abcde:hover{
   transform: translateY(-1px);
-  box-shadow: 0px 1px 20px rgb(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 5px rgb(0, 0, 0, 0.5);
 }
