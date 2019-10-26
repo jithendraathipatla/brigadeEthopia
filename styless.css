@@ -2,6 +2,15 @@
   .row.proper {
     margin-left: 26px !important;
 }
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: .5rem;
+  pointer-events: none;
+  margin-left: 48px;
+  margin-top: 48px;
+  width:76%
+}
 #firscontent{
   display: none;
 }
@@ -123,7 +132,27 @@ img.hoverjj:hover{
   color: white !important;
   font-size: 15px;
   line-height: 15px;
+  animation: example 2s linear infinite;
+  animation: horizontal left 2s ease infinite;
 }
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+  25%  {top:-100px;}
+}
+@keyframes example1 {
+  from {background-color: yellow;}
+  to {background-color: red;}
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 360px;
+    margin: 1.75rem auto;
+}
+}
+
 a:not([href]):not([tabindex]):hover {
   color: inherit;
   text-decoration: underline;
@@ -156,6 +185,7 @@ a.button:hover{
     color: white !important;
     font-size: 15px;
     line-height: 15px;
+    animation: example1 2s linear infinite;
 }
 .btn-group button{width: 100px !important;
   color: #fff !important;
@@ -569,12 +599,11 @@ a#nav{
 }
 
 #contactUsForm{
-
   background: white;
-    padding: 22px 10px !important;
-    border-radius: 12px;
-    width: 87% !important;
-    margin-left: 29px !important;
+  padding: 6px 10px !important;
+  border-radius: 12px;
+  width: 100% !important;
+  margin-left: 0px !important
 
 }
 #hii {
