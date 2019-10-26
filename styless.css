@@ -87,15 +87,16 @@ img.hoverjj:hover{
   transition: left .5s ease;
   z-index:1000;
 }
-.popup-content{
-    background-color:#1b5e20;
-    box-sizing: border-box;    
-    color: white;
-    float: left;
-    height: 182px;
-    padding: 10px;
-    width: 275px;
-    font-size: 12px;; 
+.popup-content {
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: white;
+  float: left;
+  height: 185px;
+  padding: 10px;
+  width: 275px;
+  font-size: 12px;
 }
 
 .closepopup{
@@ -103,16 +104,25 @@ img.hoverjj:hover{
   
 }
 .button{
-    background-color: red;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 114px;
-    padding-top: 1.1em;
-    width: 51px;
-    font-weight: 700;
-    color: white !important;
-    font-size: 15px;
+  background-color: red;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 93px;
+  padding-top: 0.5em;
+  width: 38px;
+  font-weight: 500;
+  color: white !important;
+  font-size: 15px;
+  line-height: 15px;
 }
+a:not([href]):not([tabindex]):hover {
+  color: inherit;
+  text-decoration: underline;
+}
+a.button:hover{
+  text-decoration: underline;
+}
+
 .button::after{
     text-decoration: underline;;
     color: white !important;
@@ -127,21 +137,27 @@ img.hoverjj:hover{
     font-size: 1.2em;
 }
 .buttonps{
-background-color: red;
+  background-color: #039be5;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-    height: 108px;
-    padding-top: 1em;
-    width: 51px;
-    font-weight: 700;
+    height: 89px;
+    padding-top: 0.5rem;
+    width: 38px;
+    font-weight: 500;
     color: white !important;
     font-size: 15px;
-    
+    line-height: 15px;
 }
-.btn-group button{width: 200px !important;
-    color: #fff !important;
-    padding: 5px !important;
-  background-color:#ff0000 !important}
+.btn-group button{width: 100px !important;
+  color: #fff !important;
+  padding: 5px !important;
+  background: green;
+  text-align: center;
+  border: none;
+  border-radius: 7px;
+  margin-left: 75px;
+}
+  
   
   input{
     width:100%;
@@ -665,5 +681,24 @@ rounded-circle:hover{
   transform: translateY(-1px);
   box-shadow: 0px 1px 5px rgb(0, 0, 0, 0.5);
 }
+
+
+@media screen 
+  and (device-width: 412px) 
+  and (device-height: 823px) 
+{
+    img.adjusting_image {
+      height: 319px !important;
+  }
+
+}
+
+@media only screen and (min-width: 411px) and (max-width: 767px) { 
+
+  img.adjusting_image {
+    height: 319px !important;
+}
+
+ }
 
 
