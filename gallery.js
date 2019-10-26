@@ -1,11 +1,12 @@
 function openModal() {
   document.getElementById("myModal").style.display = "block";
-  document.getElementById("fixingthenav").style.display = "none";
+  // document.getElementById("fixingthenav").style.display = "none";
 }
 
 // Close the Modal
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
+  // document.getElementById("fixingthenav").style.display = "block";
 }
 
 function openModal1() {

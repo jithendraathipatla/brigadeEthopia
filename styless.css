@@ -51,6 +51,9 @@ img.nav_image{
   margin-right: 5px;
   color: black;
 }
+.adjusting{
+  margin-bottom:12px;
+}
 }
 
 .modal-content{
@@ -419,14 +422,14 @@ a.button:hover{
   padding: 4px;
   width: 90%;
   max-width: 1200px;
-  margin-top:-50px;
+  margin-top:-10px;
 }
 
 /* The Close Button */
 .close {
   color: white;
   position: absolute;
-  top: 10px;
+  top: 57px;
   right: 25px;
   font-size: 35px;
   font-weight: bold;
@@ -561,7 +564,7 @@ a#nav{
 }
 .fixed-top {
   padding: 0px;
-  padding-bottom: 16px !important;
+  padding-bottom: 0px !important;
 }
 .abcd {
   margin-top: 5px;
@@ -699,6 +702,11 @@ rounded-circle:hover{
     height: 319px !important;
 }
 
+}
+
+ .adjusting{
+   margin-top:6px;
  }
 
+ 
 
