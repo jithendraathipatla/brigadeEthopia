@@ -147,3 +147,72 @@ function closeModalS3(){
   document.getElementById("myModalS3").style.display = "none";
 }
 
+
+let win = $(window).width();
+
+if(win < 420){
+  $("#bc").click(function(){
+    $("html, body" ).animate({scrollTop:1790}, 'slow');
+    return false;
+  });
+
+  $("#cd").click(function(){
+    $("html, body" ).animate({scrollTop:2600}, 'slow');
+    return false;
+  })
+ 
+  $("#ij").click(function(){
+    $("html, body" ).animate({scrollTop:2950}, 'slow');
+    return false;
+  });
+
+  $("#ef").click(function(){
+    $("html, body" ).animate({scrollTop:4600}, 'slow');
+    return false;
+  });
+
+  $("#fg").click(function(){
+    $("html, body" ).animate({scrollTop:5150}, 'slow');
+    return false;
+  });
+
+  $("#gh").click(function(){
+    $("html, body" ).animate({scrollTop:6000}, 'slow');
+    return false;
+  });
+ 
+}
+else {
+
+  $("#bc").click(function(){
+    $("html, body" ).animate({scrollTop:930}, 'slow');
+    return false;
+  });
+
+  $("#cd").click(function(){
+    $("html, body" ).animate({scrollTop:1300}, 'slow');
+    return false;
+  })
+ 
+  $("#ij").click(function(){
+    $("html, body" ).animate({scrollTop:1650}, 'slow');
+    return false;
+  });
+
+  $("#ef").click(function(){
+    $("html, body" ).animate({scrollTop:2250}, 'slow');
+    return false;
+  });
+
+  $("#fg").click(function(){
+    $("html, body" ).animate({scrollTop:2650}, 'slow');
+    return false;
+  });
+
+  $("#gh").click(function(){
+    $("html, body" ).animate({scrollTop:3250}, 'slow');
+    return false;
+  });
+
+}
+
