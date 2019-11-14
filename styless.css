@@ -164,6 +164,8 @@ a.button:hover{
 }
 
 .button::after{
+  font-family: 'FontAwesome';
+  content: '\f0a9';
     text-decoration: underline;;
     color: white !important;
     cursor: pointer;
@@ -171,7 +173,8 @@ a.button:hover{
     padding: 5px;
   }
 .button-closed::after{
-    
+  font-family: 'FontAwesome';
+  content: '\f0a8';
     color: white !important;
     cursor: pointer;
     font-size: 1.2em;
@@ -180,7 +183,7 @@ a.button:hover{
   background-color: #039be5;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-    height: 89px;
+    height: 100px;
     padding-top: 0.5rem;
     width: 38px;
     font-weight: 500;
@@ -197,6 +200,25 @@ a.button:hover{
   border: none;
   border-radius: 7px;
   margin-left: 75px;
+}
+.buttonps::after{
+  font-family: 'FontAwesome';
+  content: '\f0a9';
+  text-decoration: underline;;
+  color: white !important;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 5px;
+  border: none;
+ }
+
+ .button-closed1::after{
+  font-family: 'FontAwesome';
+    content: '\f0a8';
+  color: white !important;
+  cursor: pointer;
+  font-size: 1em;
+  border: none;
 }
   
   
